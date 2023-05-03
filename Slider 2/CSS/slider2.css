@@ -1,0 +1,17 @@
+.card_img img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.owl-item{
+    padding: 0px;
+    background-color: black;
+}
+.card{
+    padding: 30px;
+}

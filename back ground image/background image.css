@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.img1{
+	background-image: url(img2/img3.png),url(img2/img2.png),url(img2/img1.jpeg);
+	height: 100vh;
+	background-size: 50px,100px,cover;
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-position: left,right,center;
+	background-attachment: fixed;
+}
+.img1 p{
+	letter-spacing: 1px;
+	text-align: center;
+}
+.btn1{
+	background-color: transparent;
+	color: darkred;
+	border: 2px solid #9a031e;
+/*	letter-spacing: 2px;*/
+	font-size: 18px;
+	outline: none;
+	/*background-color: #27ae60;*/
+	border-radius: 5px;
+	box-shadow: 0px 6px #95a5a6;
+}
+
+.btn1:hover{
+	/*border-radius: 50px;*/
+	background-color: #B13C3C;
+	color: white;
+	border-color: orangered;
+	border-style: dashed;
+	/*background-color: #2ecc71*/;
+	box-shadow: 0px 3px #95a5a6;
+	transform: translateY(6px);
+	
+}
+button{
+	padding: 20px 40px;
+	border: none;
+	transition-duration: 0.3s;
+	margin-bottom: 30px;
+	align-content: center;
+}
+.img2{
+	background-image: url(img2/img4.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img2 p{
+	/*letter-spacing: 1px;*/
+	text-align: center;
+	color: white;
+	font-size: 29px;
+	font-family: Source Sans Pro;
+	padding-top: 65px;
+}
+.img2 font{
+	text-align: center;
+	color: white;
+
+}
+hr{
+	width: 3%;
+    border-style: solid;
+    color: #B10909;
+    border-width: 1px;
+    margin-top: 11px;
+}
+.img3{
+	background-image: url(img2/img5.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img3 p{
+	padding-top: 65px;
+}
+.img4{
+	background-image: url(img2/img6.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img4 p{
+	padding-top: 65px;
+}
+.img5{
+	background-image: url(img2/img7.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img5 p{
+	padding-top: 65px;
+}
+.img6{
+	background-image: url(img2/img8.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img6 p{
+	padding-top: 65px;
+}
+.img7{
+	background-image: url(img2/img9.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img7 p{
+	padding-top: 65px;
+}
+.img8{
+	background-image: url(img2/img10.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img8 p{
+	padding-top: 65px;
+}
+.img9{
+	background-image: url(img2/img11.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img9 p{
+	padding-top: 65px;
+}
+.img10{
+	background-image: url(img2/img12.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img10 p{
+	padding-top: 65px;
+}
+.img11{
+	background-image: url(img2/img13.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img11 p{
+	padding-top: 65px;
+}
+.img12{
+	background-image: url(img2/img14.jpeg);
+	height: 100vh;
+	background-size: ,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.img12 p{
+	padding-top: 65px;
+}

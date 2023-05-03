@@ -1,0 +1,52 @@
+ul li:first-child{
+	color: aqua;
+}
+
+ul li:last-child{
+	color: yellowgreen;
+}
+
+ul li:child(3){
+	color: violet;
+}
+/*
+ul li:nth-child(even){
+	background-color: orange;
+}
+
+ul li:nth-child(2){
+	background-color: red;
+}*/
+
+ul li:nth-last-child(2){
+	color: lawngreen;
+}
+
+.main p:only-child{
+	color: palevioletred;
+}
+
+.text:is(h2,h1){
+	color: salmon;
+}
+
+.text1::first-letter{
+	font-size: 30px;
+	color: red;
+}
+
+.text1::first-line{
+	background-color: yellow;
+}
+::selection{
+	background-color: green;
+	color: gold;
+}
+
+input::placeholder{
+	color: greenyellow;
+}
+
+input{
+	color: red;
+}

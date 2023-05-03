@@ -1,0 +1,133 @@
+body{
+	background-color: #84a98c;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.outer{
+	width: 350px;
+	height: 700px;
+	background-color: #fff;
+	border-radius: 30px;
+/*	box-shadow: rgba(0, 0, 0, 0.5);*/
+	box-shadow: 0 0 15px rgb(33, 37, 41);
+	margin: auto;
+	margin-top: 2%;
+	position: relative;
+}
+.inner{
+	width: 350px;
+	height: 50px;
+	background-color: rgb(242, 242,242);
+	border: 1px solid rgb(196, 194, 194);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	position: relative;
+
+
+}
+.inner img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translatex(-50%);
+	margin-top: 5px;
+	width: 40px;
+	height: 40px;
+}
+.inner1{
+	width: 350px;
+	height: 50px;
+	background-color: rgb(230, 230,230);
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius: 20px;
+	position: absolute;
+	bottom: 0;
+	border: 1px solid rgb(196, 194, 194);
+}
+.navigation_btn{
+	position: relative;
+}
+.navigation_btn .nav{
+	position: absolute;
+	margin-top: 5px;	
+	left: 10%;
+	width: 40px;
+	height: 40px;
+}
+.navigation_btn .circle{
+	position: absolute;
+	left: 50%;
+	margin-top: 12px;
+	transform: translatex(-50%);
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background-color: rgb(64, 64, 64);
+}
+.navigation_btn .nav1{
+	position: absolute;
+	margin-top: 6px;
+	right: 10%;
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	opacity: 75%;
+}
+.contact_area{
+	position: relative;
+	/* top: 0;
+	height: 200px; */
+}
+.a_serice{
+	position: relative;
+
+}
+.a_serice h3{
+	color: blue;
+	padding: 0 15px;
+	background-color: aquamarine;
+	position: sticky;
+	top: 0;
+}
+.contact_id{
+	margin: 5px;
+	background-color: rgb(213, 212, 212);
+	border-radius: 5px;
+	display: flex;
+}
+.contact_id img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+	background-size: cover;
+}
+.contact_id h2{
+	margin-left: 10px;
+	font-family: Sitka Banner;
+	font-size: 20px;
+}
+.contact_id h4{
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.b_serice h3{
+	color: blue;
+	padding: 0 15px;
+	background-color: aquamarine;
+	position: sticky;
+	top: 0;
+}
+
+.c_serice h3{
+	color: blue;
+	padding: 0 15px;
+	background-color: aquamarine;
+	position: sticky;
+	top: 0;
+}
